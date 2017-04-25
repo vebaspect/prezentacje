@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="FileNameMustBeTheSameAsClassName..c4e34198-cf6f-4e2e-9e73-17c733adc671" Version="1.0" Language="en-US" Publisher="Grzegorz Wodniczak"/>
+    <DisplayName>FileNameMustBeTheSameAsClassName</DisplayName>
+    <Description xml:space="preserve">Analizator sprawdzający, czy nazwa pliku źródłowego jest tożsama z nazwą zadeklarowanej w nim klasy.</Description>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="[14.0,]" Id="Microsoft.VisualStudio.Pro" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="FileNameMustBeTheSameAsClassName" Path="|FileNameMustBeTheSameAsClassName|"/>
+    <Asset Type="Microsoft.VisualStudio.Analyzer" d:Source="Project" d:ProjectName="FileNameMustBeTheSameAsClassName" Path="|FileNameMustBeTheSameAsClassName|"/>
+  </Assets>
+</PackageManifest>
